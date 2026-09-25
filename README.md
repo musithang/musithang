@@ -24,16 +24,15 @@ Reach me at [viktor.laszlo92@protonmail.com](mailto:viktor.laszlo92@protonmail.c
 ---
 
 <div align="center">
-<table>
-<tr>
-<td valign="top">
+
 <img src="https://ghstats.dev/api/card?username=musithang&theme=tokyonight&border_radius=23" alt="GitHub stats card" />
-</td>
-<td valign="top" align="center">
+
+<br/>
+
 <img src="https://ghstats.dev/api/langs?username=musithang&theme=tokyonight&border_radius=23&layout=donut&max_langs=6" alt="Most used languages" />
-<br/><br/>
-<img src="https://ghstats.dev/api/sparkline?username=musithang&theme=tokyonight&days=30&width=420&height=120&border_radius=23" alt="30 day commit sparkline" />
-</td>
-</tr>
-</table>
+
+<br/>
+
+<img src="https://ghstats.dev/api/sparkline?username=musithang&theme=tokyonight&days=30&width=495&height=120&border_radius=23" alt="30 day commit sparkline" />
+
 </div>
