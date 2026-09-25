@@ -1,6 +1,8 @@
 # MusiThang
 
-If you're reading this in a professional capacity: no, none of this pays the bills. I build things because I want them to exist, the same instinct that makes people build ships in bottles, except mine occasionally decodes FM radio.
+Hobbyist, which means nobody pays me for any of this and nobody can make me stop.
+
+I write software after the day job, mostly Rust, mostly for the terminal, usually because reading about how something works stopped being enough.
 
 ---
 
@@ -11,13 +13,15 @@ If you're reading this in a professional capacity: no, none of this pays the bil
 [![stars](https://img.shields.io/github/stars/musithang/sdrtop?style=flat-square&labelColor=16161e&color=1f2335&logo=github&logoColor=bb9af7)](https://github.com/musithang/sdrtop/stargazers)
 [![license](https://img.shields.io/github/license/musithang/sdrtop?style=flat-square&labelColor=16161e&color=1f2335&label=license)](https://github.com/musithang/sdrtop/blob/main/LICENSE)
 
-[**sdrtop**](https://github.com/musithang/sdrtop) plugs into a cheap SDR dongle and shows you what is actually flying through the air: spectrum, waterfall, FM station name and track title, all in your terminal, keyboard only. No dashboard, no Electron app pretending to be lightweight. The FFT and the FM demodulator are hand written in Rust instead of borrowed from a DSP library, because I wanted to actually understand radio, not just point a tool at it.
+[**sdrtop**](https://github.com/musithang/sdrtop) was supposed to print a few numbers from an SDR. It's now a bench instrument living in your terminal: spectrum, waterfall, noise figure, IQ diagnostics, RDS, and a Bluetooth bench I genuinely didn't plan. Keyboard only, happy over SSH, small enough for a cyberdeck screen.
 
-Niche as it gets, and somehow other people use it too. The star count up there is real, I did not draw it on myself.
+The demodulator deliberately refuses to play audio. It reads radios, it doesn't play them, and that confuses everyone exactly once.
+
+Tested on HackRF One, RTL-SDR and tinySA Ultra. Everything else runs through SoapySDR, [on the honor system](https://github.com/musithang/sdrtop/blob/main/user_docs/hardware.md#soapysdr-the-honest-version).
 
 ---
 
-I do not have a specialty so much as a rotating cast of obsessions. Whatever looks interesting gets learned badly on a Tuesday night and better by the weekend. If it is written down here, it started as "how hard can this be" and I found out.
+I don't have a specialty so much as a rotating cast of obsessions. Right now it's radio. Before that it was a homelab dashboard, and a retired phone I talked into running containers. Next is whatever I understand least.
 
 Reach me at [viktor.laszlo92@protonmail.com](mailto:viktor.laszlo92@protonmail.com), scams excluded.
 
