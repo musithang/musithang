@@ -2,7 +2,7 @@
 
 Hobbyist. I learn how something works, then I have to build one. That's how I ended up with a radio in my terminal.
 
-I write software after the day job, mostly Rust, mostly for the terminal. Current obsession: radio. Before that: homelab dashboards and containers.
+I write software after the day job, mostly Rust, mostly for the terminal. Current obsession: radio.
 
 ---
 
