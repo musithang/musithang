@@ -1,6 +1,6 @@
 # MusiThang
 
-Hobbyist, which means nobody pays me for any of this and nobody can make me stop.
+Hobbyist,  I learn how something works, then I have to build one. That's how I ended up with a radio in my terminal.
 
 I write software after the day job, mostly Rust, mostly for the terminal, usually because reading about how something works stopped being enough.
 
